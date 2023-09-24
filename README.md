@@ -14,23 +14,17 @@ The repository is ready to be cloned and deployed on most hosting platforms.
 
 ## Getting Started
 
-1. Make sure you have the correct version of go installed according to the go.mod file.
-You can use this command to check your go version:
-```bash
-go version
-```
-
-2. Clone this repository
+1. Clone this repository
 ```bash
 git clone https://github.com/kriptikz/go-web-server-template
 ```
 
-3. Create your .env file. You can use the .env.example as a reference. 
+2. Create your .env file. You can use the .env.example as a reference. 
 ```bash
 cp .env.example .env
 ```
 
-4. From here you can run the project directly via the Makefile command:
+3. From here you can run the project directly via the Makefile command:
 ```bash
 make start-dev
 ```
@@ -40,12 +34,12 @@ make start-dev
 >go version
 >```
 
-5. Or you can build the Docker image: 
+4. Or you can build the Docker image: 
 ```bash
 make docker-build
 ```
 
-6. Run the Docker container: 
+5. Run the Docker container: 
 ```bash
 make docker-start
 ```
